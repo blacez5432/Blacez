@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+svg {
+  position:absolute;
+  height: 700px;
+   left: -600px;
+    top: -600px;
+  display: block;
+  filter: drop-shadow(10px 20px 5px white);
+  transition: left 0.2s, top 0.2s;
+}
+
+.nav {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+svg.open {
+  top: -280px;
+  left: -250px; 
+}
+
+.nav #links {
+  display: none;
+}
+
+.nav a {
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  animation-name: text;
+  animation-duration: 0.5s;
+}
+
+@keyframes text {
+  0% {
+    opacity: 0%;
+    transform: translateX(-100px);
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+#links a {
+  padding-left: 50px; 
+}
+
+h1{
+  align-items: center;
+background-color: black;
+width: 250px;
+color: rgb(22, 197, 255);
+
+
+}
+body {
+  background: linear-gradient(135deg, rgba(255, 85, 0, 0.54) 25%, transparent 25%) -100px 0, linear-gradient(225deg, rgba(255, 85, 0, 0.54) 25%, transparent 25%) -100px 0, linear-gradient(315deg, rgba(255, 85, 0, 0.54) 25%, transparent 25%), linear-gradient(45deg, rgba(255, 85, 0, 0.54) 25%, transparent 25%);
+background-size: 200px 200px;
+background-color: #581313;
+  color: azure;
+}
+.para1{
+  border: solid lightblue;
+  padding: 20px;
+}
+
+.para2{
+  border: solid lightblue;
+  padding: 20px;
+}
+.para3{
+  border: solid lightblue;
+  padding: 20px;
+}
+.para4{
+  border: solid lightblue;
+  padding: 20px;
+}
+iframe {
+  border: solid darkcyan;
+}
+ul{
+  border: solid blue;
+}
+h1{
+  cursor: none;
+}
