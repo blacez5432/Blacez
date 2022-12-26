@@ -1,0 +1,51 @@
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+#links a {
+  padding-left: 50px; 
+  color: white;
+}
+
+h1{
+  align-items: center;
+background-color: black;
+width: 250px;
+color: rgb(22, 197, 255);
+
+
+}
+
+body {
+  background: linear-gradient(135deg, rgba(255, 85, 0, 0.54) 25%, transparent 25%) -100px 0, linear-gradient(225deg, rgba(255, 85, 0, 0.54) 25%, transparent 25%) -100px 0, linear-gradient(315deg, rgba(255, 85, 0, 0.54) 25%, transparent 25%), linear-gradient(45deg, rgba(255, 85, 0, 0.54) 25%, transparent 25%);
+background-size: 200px 200px;
+background-color: #581313;
+  color: azure;
+}
+.para1{
+  border: solid lightblue;
+  padding: 20px;
+}
+
+.para2{
+  border: solid lightblue;
+  padding: 20px;
+}
+.para3{
+  border: solid lightblue;
+  padding: 20px;
+}
+.para4{
+  border: solid lightblue;
+  padding: 20px;
+}
+iframe {
+  border: solid darkcyan;
+}
+ul{
+  border: solid blue;
+}
+h1{
+  cursor: none;
+}
